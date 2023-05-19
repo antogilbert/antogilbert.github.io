@@ -27,6 +27,9 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-gist
+  - jemoji
 
 minimal_mistakes_skin: neon
 # Exclude from processing.
