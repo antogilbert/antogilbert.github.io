@@ -23,12 +23,12 @@ github_username: antogilbert
 
 # Build settings
 markdown: kramdown
-remote_theme: "jekyll/minima"
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
-minima:
-  skin: dark
+minimal-mistakes-jekyll:
+  skin: neon
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
