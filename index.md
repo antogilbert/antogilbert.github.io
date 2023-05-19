@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+
+Wow a base page!
