@@ -30,6 +30,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 include:
   - :_pages
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
