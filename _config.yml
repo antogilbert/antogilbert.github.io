@@ -29,6 +29,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 include:
   - :_pages
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 
 defaults:
   # _posts
